@@ -9,6 +9,26 @@ package com.chander;
  */
 public class HelloWorld {
 
+	
+	private String name ="";
+	
+	public String getName(){
+		return name;
+	}
+	
+	public String getMessage(){
+		
+		if(name ==""){
+			return "Hello!";
+		} else{
+			return "Hello "+ name + "!";
+		}
+	}
+	
+	public void setName(String name){
+		this.name=name;
+	}
+	
 	/**
 	 * 
 	 */
@@ -16,13 +36,6 @@ public class HelloWorld {
 		// TODO Auto-generated constructor stub
 	}
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World");
-
-	}
+	
 
 }
