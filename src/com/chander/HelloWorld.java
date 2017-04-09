@@ -45,7 +45,7 @@ public static void main(String []args){
 		
 		HelloWorld h = new HelloWorld();
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter your name:");
+		System.out.println("Please enter your name:");
 		String name = s.nextLine();
 		h.setName(name);
 		System.out.println(h.getMessage());
